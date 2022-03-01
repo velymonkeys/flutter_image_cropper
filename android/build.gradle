@@ -34,6 +34,6 @@ android {
         disable 'InvalidPackage'
     }
     dependencies {
-        implementation 'com.github.ja-vely:ucrop:2.2.8'
+        implementation 'com.github.ja-vely:ucrop:develop-da0f6b672b-1'
     }
 }

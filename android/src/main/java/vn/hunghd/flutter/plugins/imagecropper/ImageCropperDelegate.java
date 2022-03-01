@@ -6,9 +6,9 @@ import android.graphics.Bitmap;
 import android.graphics.Color;
 import android.net.Uri;
 
-import com.yalantis.ucrop.UCrop;
-import com.yalantis.ucrop.model.AspectRatio;
-import com.yalantis.ucrop.view.CropImageView;
+import com.javely.ucrop.UCrop;
+import com.javely.ucrop.model.AspectRatio;
+import com.javely.ucrop.view.CropImageView;
 
 import java.io.File;
 import java.util.ArrayList;

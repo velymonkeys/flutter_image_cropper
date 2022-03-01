@@ -55,7 +55,7 @@ class CropAspectRatio {
 ///
 /// The properties is mapped to fields of `Ucrop.Options` class in Ucrop library.
 ///
-/// See: <https://github.com/Yalantis/uCrop/blob/master/ucrop/src/main/java/com/yalantis/ucrop/UCrop.java#L260>
+/// See: <https://github.com/javely/uCrop/blob/master/ucrop/src/main/java/com/javely/ucrop/UCrop.java#L260>
 ///
 class AndroidUiSettings {
   /// desired text for Toolbar title

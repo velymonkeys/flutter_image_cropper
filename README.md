@@ -7,12 +7,12 @@ A Flutter plugin for Android and iOS supports cropping images. This plugin is ba
 
 ## Introduction
 
-**Image Cropper** doesn't manipulate images in Dart codes directly, instead, the plugin uses [Platform Channel](https://flutter.dev/docs/development/platform-integration/platform-channels) to expose Dart APIs that Flutter application can use to communicate with two very powerful native libraries ([uCrop](https://github.com/Yalantis/uCrop) and [TOCropViewController](https://github.com/TimOliver/TOCropViewController)) to crop and rotate images. Because of that, all credits belong to these libraries.
+**Image Cropper** doesn't manipulate images in Dart codes directly, instead, the plugin uses [Platform Channel](https://flutter.dev/docs/development/platform-integration/platform-channels) to expose Dart APIs that Flutter application can use to communicate with two very powerful native libraries ([uCrop](https://github.com/javely/uCrop) and [TOCropViewController](https://github.com/TimOliver/TOCropViewController)) to crop and rotate images. Because of that, all credits belong to these libraries.
 
-### uCrop - Yalantis 
-[![GitHub watchers](https://img.shields.io/github/watchers/Yalantis/uCrop.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/Yalantis/uCrop/watchers/)  [![GitHub stars](https://img.shields.io/github/stars/Yalantis/uCrop.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/Yalantis/uCrop/stargazers/)  [![GitHub forks](https://img.shields.io/github/forks/Yalantis/uCrop.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/Yalantis/uCrop/network/) [![](https://jitpack.io/v/Yalantis/uCrop.svg)](https://jitpack.io/#Yalantis/uCrop) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+### uCrop - javely
+[![GitHub watchers](https://img.shields.io/github/watchers/javely/uCrop.svg?style=social&label=Watch&maxAge=2592000)](https://GitHub.com/javely/uCrop/watchers/)  [![GitHub stars](https://img.shields.io/github/stars/javely/uCrop.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/javely/uCrop/stargazers/)  [![GitHub forks](https://img.shields.io/github/forks/javely/uCrop.svg?style=social&label=Fork&maxAge=2592000)](https://GitHub.com/javely/uCrop/network/) [![](https://jitpack.io/v/javely/uCrop.svg)](https://jitpack.io/#javely/uCrop) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-This project aims to provide an ultimate and flexible image cropping experience. Made in [Yalantis](https://yalantis.com/?utm_source=github)
+This project aims to provide an ultimate and flexible image cropping experience. Made in [javely](https://javely.com/?utm_source=github)
 
 <p align="center">
 	<img src="https://github.com/hnvn/flutter_image_cropper/blob/master/screenshots/android_demo.gif?raw=true" width="200"  />
@@ -35,7 +35,7 @@ This project aims to provide an ultimate and flexible image cropping experience.
 
 ````xml
 <activity
-    android:name="com.yalantis.ucrop.UCropActivity"
+    android:name="com.javely.ucrop.UCropActivity"
     android:screenOrientation="portrait"
     android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
 ````
@@ -159,5 +159,5 @@ File croppedFile = await ImageCropper().cropImage(
 
 ## Credits
 
-- Android: [uCrop](https://github.com/Yalantis/uCrop) created by [Yalantis](https://github.com/Yalantis)
+- Android: [uCrop](https://github.com/javely/uCrop) created by [javely](https://github.com/javely)
 - iOS: [TOCropViewController](https://github.com/TimOliver/TOCropViewController) created by [Tim Oliver](https://twitter.com/TimOliverAU)

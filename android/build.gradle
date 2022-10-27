@@ -34,6 +34,6 @@ android {
         disable 'InvalidPackage'
     }
     dependencies {
-        implementation 'com.github.ja-vely:ucrop:develop-SNAPSHOT'
+        implementation 'com.github.velymonkeys:ucrop:develop-SNAPSHOT'
     }
 }
